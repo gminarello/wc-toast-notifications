@@ -1,0 +1,36 @@
+#toast-container>div {
+    border-radius: 7px !important;
+    box-shadow: none !important;
+    font-size: 13px !important;
+    line-height: 15px !important;
+    background-size: 14px !important;
+    padding: 15px 15px 15px 40px !important;
+    transition: all 0.5s ease !important;
+}
+
+#toast-container>div:hover {
+
+}
+
+#toast-container.toast-top-center>div {
+    width: 100% !important;
+    max-width: 440px !important;
+    opacity: 0.9 !important;
+}
+
+.toast {
+    width: calc(100% - 60px) !important; /* 100% menos as margens laterais */
+    max-width: 450px !important;         /* Largura máxima */
+    margin: 10px auto !important;       /* Centraliza o toast horizontalmente */
+    padding: 15px !important;           /* Ajusta o espaçamento interno */
+    left: unset !important;             /* Remove posicionamento padrão à esquerda */
+    right: unset !important;            /* Remove posicionamento padrão à direita */
+}
+
+.toast-success, .toast-error, .toast-info, .toast-warning {
+    box-sizing: border-box;
+}
+
+.toast-top-center {
+    margin-top: 80px !important; /* Margem superior de 30px */
+}
