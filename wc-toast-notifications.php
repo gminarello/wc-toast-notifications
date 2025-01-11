@@ -1,19 +1,20 @@
 <?php
 /*
 Plugin Name: WC Toast Notifications
-Plugin URI: https://webefy.com.br/
+Plugin URI: https://cloubox.com.br/
 Description: Transforma as notificações padrões do WooCommerce em algo bonito e funcional.
-Version: 1.0.0
-Author: Webefy Commerce
-Author URI: https://webefy.com.br/
+Version: 1.0.1
+Author: Cloubox
+Author URI: https://cloubox.com.br/
 Text Domain: wc-toast-notifications
 */
 
-if (!defined('ABSPATH')) {
-    exit; // Sai se acessado diretamente.
+// Bloquear acesso direto
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
 }
 
-// Enfileira os scripts e estilos necessários
+// Carrega os scripts e estilos no frontend
 function wctn_enqueue_scripts() {
     if (class_exists('WooCommerce')) {
         // Carrega o JS personalizado

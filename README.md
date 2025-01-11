@@ -50,7 +50,7 @@ Os scripts e estilos do plugin são carregados através da função `wctn_enqueu
 
 ## Suporte
 
-Para suporte, entre em contato com o autor do plugin através do site [Webefy](https://webefy.com.br/).
+Para suporte, entre em contato com o autor do plugin através do site [Cloubox](https://cloubox.com.br/).
 
 ## Licença
 
